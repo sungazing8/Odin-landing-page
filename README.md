@@ -1,1 +1,1 @@
-This is a landing page created as part of the Odin project syllabus in order to practise using htm and css to create webpages.
+This is a landing page created as part of the Odin project syllabus in order to practise using html and css to create webpages.
