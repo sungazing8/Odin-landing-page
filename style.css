@@ -9,7 +9,6 @@ body{
     align-items: center;
     height: 50px;
     justify-content: space-between;
-
 }
 
 .logo{
@@ -38,4 +37,68 @@ body{
 
 .logo, .links, .footer{
     color: #e5e7eb;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.right{
+    display: flex;
+    padding-right: 100px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 300px;
+    background-color: grey
+}
+
+h1{
+    font: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.blurb, .links, .right{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button{
+    width: 75px;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box{
+    border: 1px;
+    border-color: #3882f6;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
 }
